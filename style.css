@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container{
+    background-image: linear-gradient(to bottom, rgb(215, 29, 236), #2247ee);
+    height: 89.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 1300px;
+    gap: 80px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 111px;
+    color: #fff;
+    gap: 20px;
+}
+
+.conteudo h1{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteudo p{
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 650px;
+    background: #fff;
+    gap: 10px;
+}
+
+.form input{
+    width: 298.1px;
+    height: 35.1px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.res{
+    opacity: 0;
+    color: #c55;
+}
+
+.form .area{
+    width: 298.1px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.form p{
+    align-self: self-start;
+    padding-left: 45px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 1px 0px 15px 0px;
+}
+
+.form .btn{
+    width: 298.1px;
+    height: 41.13px;
+    border-radius: 5px;
+    background: #3CCC87;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.borda-certa{
+    border: 2px solid #3CCC87;
+}
+
+.borda-erro{
+    border: 2px solid #c55;
+}
+
+.mensagem-erro{
+    opacity: 1;
+}
